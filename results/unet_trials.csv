@@ -1,0 +1,6 @@
+number,value,datetime_start,datetime_complete,duration,params_aug_strength,params_batch_size,params_encoder,params_lr,user_attrs_ckpt,state
+0,0.9152203684061123,2026-06-14 11:40:14.315808,2026-06-14 11:47:09.553102,0 days 00:06:55.237294,none,4,resnet18,0.0001329291894316216,/home/vigoroth/projects/deel_learning_master/checkpoints/unet_trial0.pth,COMPLETE
+1,0.9057445478355938,2026-06-14 11:47:09.577430,2026-06-14 12:08:38.104185,0 days 00:21:28.526755,none,4,efficientnet-b0,1.1527987128232396e-05,/home/vigoroth/projects/deel_learning_master/checkpoints/unet_trial1.pth,COMPLETE
+2,0.9152115786086923,2026-06-14 12:08:38.126368,2026-06-14 12:28:42.905590,0 days 00:20:04.779222,light,16,resnet34,0.000684792009557478,/home/vigoroth/projects/deel_learning_master/checkpoints/unet_trial2.pth,COMPLETE
+3,0.9152603147399097,2026-06-14 12:28:42.927674,2026-06-14 12:39:15.267909,0 days 00:10:32.340235,light,16,resnet18,0.0006647135865318024,/home/vigoroth/projects/deel_learning_master/checkpoints/unet_trial3.pth,COMPLETE
+4,0.9046311515000164,2026-06-14 12:39:15.295657,2026-06-14 12:59:11.480231,0 days 00:19:56.184574,light,16,resnet34,2.32335035153901e-05,/home/vigoroth/projects/deel_learning_master/checkpoints/unet_trial4.pth,COMPLETE

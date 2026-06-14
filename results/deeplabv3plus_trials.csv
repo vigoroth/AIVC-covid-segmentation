@@ -1,0 +1,6 @@
+number,value,datetime_start,datetime_complete,duration,params_aug_strength,params_batch_size,params_encoder,params_lr,user_attrs_ckpt,state
+0,0.9132935213367267,2026-06-14 12:59:17.548564,2026-06-14 13:07:27.638985,0 days 00:08:10.090421,none,4,resnet18,0.0001329291894316216,/home/vigoroth/projects/deel_learning_master/checkpoints/deeplabv3plus_trial0.pth,COMPLETE
+1,0.8769414584038682,2026-06-14 13:07:27.664500,2026-06-14 13:30:04.742853,0 days 00:22:37.078353,none,4,efficientnet-b0,1.1527987128232396e-05,/home/vigoroth/projects/deel_learning_master/checkpoints/deeplabv3plus_trial1.pth,COMPLETE
+2,0.9122351257324195,2026-06-14 13:30:04.763355,2026-06-14 13:42:56.134294,0 days 00:12:51.370939,light,16,resnet34,0.000684792009557478,/home/vigoroth/projects/deel_learning_master/checkpoints/deeplabv3plus_trial2.pth,COMPLETE
+3,0.913220569033701,2026-06-14 13:42:56.155532,2026-06-14 13:48:15.880364,0 days 00:05:19.724832,light,16,resnet18,0.0006647135865318024,/home/vigoroth/projects/deel_learning_master/checkpoints/deeplabv3plus_trial3.pth,COMPLETE
+4,0.9035842639118233,2026-06-14 13:48:15.904203,2026-06-14 14:09:02.787366,0 days 00:20:46.883163,light,16,resnet34,2.32335035153901e-05,/home/vigoroth/projects/deel_learning_master/checkpoints/deeplabv3plus_trial4.pth,COMPLETE

@@ -1,0 +1,10 @@
+{
+  "value": 0.9132935213367267,
+  "params": {
+    "lr": 0.0001329291894316216,
+    "batch_size": 4,
+    "encoder": "resnet18",
+    "aug_strength": "none"
+  },
+  "trial": 0
+}

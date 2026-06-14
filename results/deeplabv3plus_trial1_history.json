@@ -1,0 +1,857 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.429610718091329,
+    "val_loss": 1.1441387310063929,
+    "train_dice": 0.3574099212011594,
+    "val_dice": 0.44080075421679754,
+    "val_dice_per_class": {
+      "background": 0.9470116979832407,
+      "left_lung": 0.687558743372883,
+      "right_lung": 0.6341413014933611,
+      "infection": 0.000702217784148561
+    },
+    "val_iou_per_class": {
+      "background": 0.8993563329900773,
+      "left_lung": 0.5238777277848315,
+      "right_lung": 0.4642803111234708,
+      "infection": 0.0003512322128273871
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.8419597101211548,
+    "val_loss": 0.6275195468189125,
+    "train_dice": 0.5200240507494078,
+    "val_dice": 0.5606469555258183,
+    "val_dice_per_class": {
+      "background": 0.9817144847125336,
+      "left_lung": 0.838125274609491,
+      "right_lung": 0.8436858498952045,
+      "infection": 0.00012974207275935441
+    },
+    "val_iou_per_class": {
+      "background": 0.9640856812496164,
+      "left_lung": 0.7213559743523942,
+      "right_lung": 0.7296337676216642,
+      "infection": 6.487524490404952e-05
+    }
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.6233073135902142,
+    "val_loss": 0.46578565900935265,
+    "train_dice": 0.6185159774505443,
+    "val_dice": 0.7375563576662557,
+    "val_dice_per_class": {
+      "background": 0.9880694822924074,
+      "left_lung": 0.8871678578208292,
+      "right_lung": 0.8886070195280683,
+      "infection": 0.4368941956498694
+    },
+    "val_iou_per_class": {
+      "background": 0.9764202828181924,
+      "left_lung": 0.7972162415111042,
+      "right_lung": 0.7995434874446826,
+      "infection": 0.27950391741492536
+    }
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.4844514076874174,
+    "val_loss": 0.3913312460246839,
+    "train_dice": 0.7468169499622707,
+    "val_dice": 0.7621522202090203,
+    "val_dice_per_class": {
+      "background": 0.9911917169987409,
+      "left_lung": 0.8938039362781479,
+      "right_lung": 0.908821861434416,
+      "infection": 0.48383086291449695
+    },
+    "val_iou_per_class": {
+      "background": 0.9825372508341149,
+      "left_lung": 0.807997755181753,
+      "right_lung": 0.832881295284301,
+      "infection": 0.31911404280696143
+    }
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.38925772949196824,
+    "val_loss": 0.34440239429249797,
+    "train_dice": 0.786033991998055,
+    "val_dice": 0.7764579479754965,
+    "val_dice_per_class": {
+      "background": 0.9923368054310536,
+      "left_lung": 0.9046001226289422,
+      "right_lung": 0.914847324341809,
+      "infection": 0.509926396955738
+    },
+    "val_iou_per_class": {
+      "background": 0.9847901667734832,
+      "left_lung": 0.825817257529705,
+      "right_lung": 0.843058626554015,
+      "infection": 0.3422155764077319
+    }
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.3295511825194304,
+    "val_loss": 0.2997839119201316,
+    "train_dice": 0.8104798099479522,
+    "val_dice": 0.7938028057797492,
+    "val_dice_per_class": {
+      "background": 0.9935380949819178,
+      "left_lung": 0.9149838793801821,
+      "right_lung": 0.9249385097150856,
+      "infection": 0.54148602824398
+    },
+    "val_iou_per_class": {
+      "background": 0.987159166212126,
+      "left_lung": 0.8432905852656785,
+      "right_lung": 0.8603587032681796,
+      "infection": 0.37125871862032434
+    }
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.28598795442745606,
+    "val_loss": 0.27424527419016775,
+    "train_dice": 0.8239673344978029,
+    "val_dice": 0.8044810560725937,
+    "val_dice_per_class": {
+      "background": 0.9939887564097063,
+      "left_lung": 0.9204046257484055,
+      "right_lung": 0.930770936135103,
+      "infection": 0.5622676063342724
+    },
+    "val_iou_per_class": {
+      "background": 0.988049351081126,
+      "left_lung": 0.852545914608476,
+      "right_lung": 0.8705065804802243,
+      "infection": 0.3910794587445315
+    }
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.2533359086924586,
+    "val_loss": 0.253213432526454,
+    "train_dice": 0.8379573827828763,
+    "val_dice": 0.8188392535143024,
+    "val_dice_per_class": {
+      "background": 0.9943337340437004,
+      "left_lung": 0.9260255754053915,
+      "right_lung": 0.933381132557009,
+      "infection": 0.5971110525805066
+    },
+    "val_iou_per_class": {
+      "background": 0.9887313194284957,
+      "left_lung": 0.8622417389082027,
+      "right_lung": 0.8750840258382142,
+      "infection": 0.42562959361740393
+    }
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.22869700570216125,
+    "val_loss": 0.24512009034143353,
+    "train_dice": 0.8473194057807024,
+    "val_dice": 0.8188376992021782,
+    "val_dice_per_class": {
+      "background": 0.9943015447248665,
+      "left_lung": 0.924386870713808,
+      "right_lung": 0.9353195087629997,
+      "infection": 0.5968067181297267
+    },
+    "val_iou_per_class": {
+      "background": 0.9886676662467886,
+      "left_lung": 0.8594045996140431,
+      "right_lung": 0.8784978371081992,
+      "infection": 0.42532039302116764
+    }
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.2089895938730788,
+    "val_loss": 0.23265681919970907,
+    "train_dice": 0.856903910005412,
+    "val_dice": 0.8256862181297325,
+    "val_dice_per_class": {
+      "background": 0.9946628860852885,
+      "left_lung": 0.9269760310055298,
+      "right_lung": 0.939098038891901,
+      "infection": 0.610984584491767
+    },
+    "val_iou_per_class": {
+      "background": 0.9893824393015211,
+      "left_lung": 0.8638912622559571,
+      "right_lung": 0.8851883334356595,
+      "infection": 0.4398688291506189
+    }
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.19760514901972365,
+    "val_loss": 0.22800581496124878,
+    "train_dice": 0.8621334373705299,
+    "val_dice": 0.8259440769155679,
+    "val_dice_per_class": {
+      "background": 0.9946863471714082,
+      "left_lung": 0.9331350017009119,
+      "right_lung": 0.9384316423955318,
+      "infection": 0.6062655866502602
+    },
+    "val_iou_per_class": {
+      "background": 0.9894288656805943,
+      "left_lung": 0.8746514349881352,
+      "right_lung": 0.8840049118581432,
+      "infection": 0.43499362636325006
+    }
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.18520275118022128,
+    "val_loss": 0.22439998564751526,
+    "train_dice": 0.8687471968244137,
+    "val_dice": 0.8293750036424136,
+    "val_dice_per_class": {
+      "background": 0.9943348311871981,
+      "left_lung": 0.9262279713638536,
+      "right_lung": 0.9366847020157666,
+      "infection": 0.6252123375476203
+    },
+    "val_iou_per_class": {
+      "background": 0.988733489060798,
+      "left_lung": 0.8625927540134415,
+      "right_lung": 0.880909645324839,
+      "infection": 0.4547701107764898
+    }
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.17315762214276983,
+    "val_loss": 0.20478765714101324,
+    "train_dice": 0.8735625916446415,
+    "val_dice": 0.8440791817061847,
+    "val_dice_per_class": {
+      "background": 0.9949527122678623,
+      "left_lung": 0.9392801970212927,
+      "right_lung": 0.9412714773078519,
+      "infection": 0.6516858707894095
+    },
+    "val_iou_per_class": {
+      "background": 0.9899561188936159,
+      "left_lung": 0.8855120781035778,
+      "right_lung": 0.8890583913942122,
+      "infection": 0.48333385868392403
+    }
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.1628625303301318,
+    "val_loss": 0.21052380123252706,
+    "train_dice": 0.8795641658257285,
+    "val_dice": 0.841729199806344,
+    "val_dice_per_class": {
+      "background": 0.9938934007469065,
+      "left_lung": 0.932187124888516,
+      "right_lung": 0.9329786606733109,
+      "infection": 0.660021813857205
+    },
+    "val_iou_per_class": {
+      "background": 0.9878609299300354,
+      "left_lung": 0.8729873432095412,
+      "right_lung": 0.8743767591958735,
+      "infection": 0.49256161084018557
+    }
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.15559998035430908,
+    "val_loss": 0.19864411346782418,
+    "train_dice": 0.8837078682865371,
+    "val_dice": 0.8449798302077133,
+    "val_dice_per_class": {
+      "background": 0.9952466854403076,
+      "left_lung": 0.9381515051648348,
+      "right_lung": 0.9441590609847205,
+      "infection": 0.6526289244735847
+    },
+    "val_iou_per_class": {
+      "background": 0.9905383451025979,
+      "left_lung": 0.883507873042159,
+      "right_lung": 0.8942247133032006,
+      "infection": 0.48437207561295154
+    }
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.15269286568822532,
+    "val_loss": 0.1978579548964823,
+    "train_dice": 0.887464354778885,
+    "val_dice": 0.8448905769308186,
+    "val_dice_per_class": {
+      "background": 0.9950368158493579,
+      "left_lung": 0.9355070737836709,
+      "right_lung": 0.9429253556022896,
+      "infection": 0.6562393014064952
+    },
+    "val_iou_per_class": {
+      "background": 0.9901226547819523,
+      "left_lung": 0.8788288308395529,
+      "right_lung": 0.8920139751715834,
+      "infection": 0.4883602430800154
+    }
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.14555136050301037,
+    "val_loss": 0.17850690903632263,
+    "train_dice": 0.8912875330682576,
+    "val_dice": 0.8611066593118474,
+    "val_dice_per_class": {
+      "background": 0.9957827185134378,
+      "left_lung": 0.943307382063236,
+      "right_lung": 0.9509077564169778,
+      "infection": 0.6891048394553282
+    },
+    "val_iou_per_class": {
+      "background": 0.9916008585705292,
+      "left_lung": 0.8926979956622416,
+      "right_lung": 0.9064100532945419,
+      "infection": 0.5256750197849596
+    }
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.1386281133897003,
+    "val_loss": 0.1798341927867859,
+    "train_dice": 0.8934210983172456,
+    "val_dice": 0.8583094256177981,
+    "val_dice_per_class": {
+      "background": 0.9955788496611662,
+      "left_lung": 0.9428329533128782,
+      "right_lung": 0.9482689408797081,
+      "infection": 0.683826382660808
+    },
+    "val_iou_per_class": {
+      "background": 0.9911966203870909,
+      "left_lung": 0.891848602609648,
+      "right_lung": 0.9016268300309365,
+      "infection": 0.5195563667681226
+    }
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.13735552139665888,
+    "val_loss": 0.17666288596907057,
+    "train_dice": 0.895558218214976,
+    "val_dice": 0.8611696601623532,
+    "val_dice_per_class": {
+      "background": 0.9957643399590972,
+      "left_lung": 0.9421748695271741,
+      "right_lung": 0.948659908938547,
+      "infection": 0.6926742020213387
+    },
+    "val_iou_per_class": {
+      "background": 0.9915644102087945,
+      "left_lung": 0.8906716643289061,
+      "right_lung": 0.9023339992492456,
+      "infection": 0.5298405363776388
+    }
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.13232514271448398,
+    "val_loss": 0.1754668699367378,
+    "train_dice": 0.8990479157604151,
+    "val_dice": 0.862445854153607,
+    "val_dice_per_class": {
+      "background": 0.9956187604112862,
+      "left_lung": 0.9467557526072296,
+      "right_lung": 0.9483816726825615,
+      "infection": 0.6922001371710298
+    },
+    "val_iou_per_class": {
+      "background": 0.9912757438788724,
+      "left_lung": 0.8988947767346982,
+      "right_lung": 0.9018306813858766,
+      "infection": 0.5292859839224141
+    }
+  },
+  {
+    "epoch": 21,
+    "train_loss": 0.12980616723668986,
+    "val_loss": 0.1722439599636578,
+    "train_dice": 0.901584123085951,
+    "val_dice": 0.8647910562819602,
+    "val_dice_per_class": {
+      "background": 0.9959108401959597,
+      "left_lung": 0.9484186141446586,
+      "right_lung": 0.9503723438402774,
+      "infection": 0.6955822108609445
+    },
+    "val_iou_per_class": {
+      "background": 0.9918549866531008,
+      "left_lung": 0.9018974916270777,
+      "right_lung": 0.9054375980501589,
+      "infection": 0.5332510922900278
+    }
+  },
+  {
+    "epoch": 22,
+    "train_loss": 0.1279728182567947,
+    "val_loss": 0.1818715013367565,
+    "train_dice": 0.9043103294029518,
+    "val_dice": 0.8543569004056552,
+    "val_dice_per_class": {
+      "background": 0.9953706389125073,
+      "left_lung": 0.9446028798428868,
+      "right_lung": 0.9456354237784064,
+      "infection": 0.6728323975956725
+    },
+    "val_iou_per_class": {
+      "background": 0.9907839422839853,
+      "left_lung": 0.8950212785328304,
+      "right_lung": 0.8968770813290905,
+      "infection": 0.5069686725148759
+    }
+  },
+  {
+    "epoch": 23,
+    "train_loss": 0.12528332122440997,
+    "val_loss": 0.16403127998057612,
+    "train_dice": 0.904622358230951,
+    "val_dice": 0.8693608942213705,
+    "val_dice_per_class": {
+      "background": 0.9961601531658608,
+      "left_lung": 0.9512174765000818,
+      "right_lung": 0.9530380961657918,
+      "infection": 0.7038271099982376
+    },
+    "val_iou_per_class": {
+      "background": 0.9923496823796164,
+      "left_lung": 0.9069730427293453,
+      "right_lung": 0.9102891830882801,
+      "infection": 0.5430040355166513
+    }
+  },
+  {
+    "epoch": 24,
+    "train_loss": 0.1207205334614063,
+    "val_loss": 0.1628549409736144,
+    "train_dice": 0.9061143583504233,
+    "val_dice": 0.8709000667196322,
+    "val_dice_per_class": {
+      "background": 0.9959675482558396,
+      "left_lung": 0.947758783245507,
+      "right_lung": 0.9522867039598599,
+      "infection": 0.7126547129535293
+    },
+    "val_iou_per_class": {
+      "background": 0.9919674872318013,
+      "left_lung": 0.9007048651532116,
+      "right_lung": 0.9089191743190169,
+      "infection": 0.5535847453860324
+    }
+  },
+  {
+    "epoch": 25,
+    "train_loss": 0.11591704720395735,
+    "val_loss": 0.16067200404752915,
+    "train_dice": 0.9085135035422813,
+    "val_dice": 0.8729753221059401,
+    "val_dice_per_class": {
+      "background": 0.9961807144279972,
+      "left_lung": 0.9496247792387624,
+      "right_lung": 0.9543434172839007,
+      "infection": 0.7149577697951573
+    },
+    "val_iou_per_class": {
+      "background": 0.9923904917410976,
+      "left_lung": 0.9040814753327308,
+      "right_lung": 0.9126738482389581,
+      "infection": 0.5563690849920079
+    }
+  },
+  {
+    "epoch": 26,
+    "train_loss": 0.11587233086084497,
+    "val_loss": 0.17138460868115263,
+    "train_dice": 0.9089066462224432,
+    "val_dice": 0.8628249981797885,
+    "val_dice_per_class": {
+      "background": 0.9957901870719792,
+      "left_lung": 0.9465864698006109,
+      "right_lung": 0.9479288485734861,
+      "infection": 0.6939596761652687
+    },
+    "val_iou_per_class": {
+      "background": 0.9916156706022499,
+      "left_lung": 0.898589625691861,
+      "right_lung": 0.9010121105290074,
+      "infection": 0.5313462865585179
+    }
+  },
+  {
+    "epoch": 27,
+    "train_loss": 0.1141051523918393,
+    "val_loss": 0.18182320629519627,
+    "train_dice": 0.910967730486082,
+    "val_dice": 0.8561475020890598,
+    "val_dice_per_class": {
+      "background": 0.9949890944975558,
+      "left_lung": 0.940683062215712,
+      "right_lung": 0.9430329354166261,
+      "infection": 0.6847265086348414
+    },
+    "val_iou_per_class": {
+      "background": 0.9900281569582788,
+      "left_lung": 0.8880090827050159,
+      "right_lung": 0.8922065474086864,
+      "infection": 0.5205962966106349
+    }
+  },
+  {
+    "epoch": 28,
+    "train_loss": 0.11177593748802427,
+    "val_loss": 0.16551307595818116,
+    "train_dice": 0.9120390977581732,
+    "val_dice": 0.8652466525275672,
+    "val_dice_per_class": {
+      "background": 0.995969566138277,
+      "left_lung": 0.9498933116218236,
+      "right_lung": 0.9494721265195426,
+      "infection": 0.6963745194413353
+    },
+    "val_iou_per_class": {
+      "background": 0.9919714906524874,
+      "left_lung": 0.9045683854169845,
+      "right_lung": 0.9038047923220623,
+      "infection": 0.5341829611545382
+    }
+  },
+  {
+    "epoch": 29,
+    "train_loss": 0.11185591000250016,
+    "val_loss": 0.1614140974483768,
+    "train_dice": 0.9136423021092943,
+    "val_dice": 0.8696555456299867,
+    "val_dice_per_class": {
+      "background": 0.9961109128452864,
+      "left_lung": 0.9488990702947313,
+      "right_lung": 0.952648978889346,
+      "infection": 0.7074185877058828
+    },
+    "val_iou_per_class": {
+      "background": 0.9922519584992476,
+      "left_lung": 0.9027668451980202,
+      "right_lung": 0.9095794625560377,
+      "infection": 0.5472913202815848
+    }
+  },
+  {
+    "epoch": 30,
+    "train_loss": 0.11022870296376876,
+    "val_loss": 0.1703631464475976,
+    "train_dice": 0.914623542147193,
+    "val_dice": 0.8622991284829588,
+    "val_dice_per_class": {
+      "background": 0.9956564676986781,
+      "left_lung": 0.9465080128885555,
+      "right_lung": 0.9460638129236976,
+      "infection": 0.6943255596366235
+    },
+    "val_iou_per_class": {
+      "background": 0.9913505047593243,
+      "left_lung": 0.8984482316602835,
+      "right_lung": 0.8976480972231812,
+      "infection": 0.5317754090701114
+    }
+  },
+  {
+    "epoch": 31,
+    "train_loss": 0.10729580483217349,
+    "val_loss": 0.15734809060069851,
+    "train_dice": 0.9162848546640436,
+    "val_dice": 0.8729583146940149,
+    "val_dice_per_class": {
+      "background": 0.9962930821018009,
+      "left_lung": 0.9511474823413507,
+      "right_lung": 0.9534550767789728,
+      "infection": 0.7142723849617211
+    },
+    "val_iou_per_class": {
+      "background": 0.9926135451851592,
+      "left_lung": 0.9068457827270079,
+      "right_lung": 0.911050310047327,
+      "infection": 0.5555394288863086
+    }
+  },
+  {
+    "epoch": 32,
+    "train_loss": 0.10695757520096055,
+    "val_loss": 0.15565169790297523,
+    "train_dice": 0.9166514361794421,
+    "val_dice": 0.8749280941695595,
+    "val_dice_per_class": {
+      "background": 0.9962949110394341,
+      "left_lung": 0.9508260039215881,
+      "right_lung": 0.9542683634350023,
+      "infection": 0.7196899151520881
+    },
+    "val_iou_per_class": {
+      "background": 0.9926171760982047,
+      "left_lung": 0.9062615042648526,
+      "right_lung": 0.9125365725470137,
+      "infection": 0.5621215701332073
+    }
+  },
+  {
+    "epoch": 33,
+    "train_loss": 0.10685095326996398,
+    "val_loss": 0.1616161779913687,
+    "train_dice": 0.9163421985808827,
+    "val_dice": 0.8702365080969713,
+    "val_dice_per_class": {
+      "background": 0.9960806024826241,
+      "left_lung": 0.948934309130112,
+      "right_lung": 0.9519678399843122,
+      "infection": 0.7098073751764897
+    },
+    "val_iou_per_class": {
+      "background": 0.9921918083721296,
+      "left_lung": 0.9028306388202535,
+      "right_lung": 0.9083383853125866,
+      "infection": 0.5501561251550222
+    }
+  },
+  {
+    "epoch": 34,
+    "train_loss": 0.10904074446737082,
+    "val_loss": 0.15444817140530376,
+    "train_dice": 0.916234238587896,
+    "val_dice": 0.8759618825966973,
+    "val_dice_per_class": {
+      "background": 0.9963343890243821,
+      "left_lung": 0.9520775443052961,
+      "right_lung": 0.9543782350222453,
+      "infection": 0.7214298684625505
+    },
+    "val_iou_per_class": {
+      "background": 0.9926955533087265,
+      "left_lung": 0.9085381643760378,
+      "right_lung": 0.9127375375956805,
+      "infection": 0.5642473968909697
+    }
+  },
+  {
+    "epoch": 35,
+    "train_loss": 0.10417238468411325,
+    "val_loss": 0.15363518439961554,
+    "train_dice": 0.9173950242082299,
+    "val_dice": 0.8769414584038682,
+    "val_dice_per_class": {
+      "background": 0.9963400281651678,
+      "left_lung": 0.9521792770621552,
+      "right_lung": 0.9547781877939432,
+      "infection": 0.7238669103555064
+    },
+    "val_iou_per_class": {
+      "background": 0.9927067494220352,
+      "left_lung": 0.9087234640602132,
+      "right_lung": 0.9134694441352861,
+      "infection": 0.5672346530542218
+    }
+  },
+  {
+    "epoch": 36,
+    "train_loss": 0.10800163674971153,
+    "val_loss": 0.15755414698076875,
+    "train_dice": 0.917124716160867,
+    "val_dice": 0.8736907902215383,
+    "val_dice_per_class": {
+      "background": 0.9962333186332408,
+      "left_lung": 0.9514179647090466,
+      "right_lung": 0.9536419180389626,
+      "infection": 0.7160124879166057
+    },
+    "val_iou_per_class": {
+      "background": 0.99249490656209,
+      "left_lung": 0.907337654745395,
+      "right_lung": 0.9113915536942092,
+      "infection": 0.5576475481095653
+    }
+  },
+  {
+    "epoch": 37,
+    "train_loss": 0.10719218052324207,
+    "val_loss": 0.15618838091149814,
+    "train_dice": 0.916948935900928,
+    "val_dice": 0.8737978917072847,
+    "val_dice_per_class": {
+      "background": 0.9963378658747004,
+      "left_lung": 0.9519809751411635,
+      "right_lung": 0.9544035259046053,
+      "infection": 0.7150091740760853
+    },
+    "val_iou_per_class": {
+      "background": 0.9927024563330943,
+      "left_lung": 0.908362303126502,
+      "right_lung": 0.9127838028818089,
+      "infection": 0.5564313453848905
+    }
+  },
+  {
+    "epoch": 38,
+    "train_loss": 0.10653363924944538,
+    "val_loss": 0.155228891697033,
+    "train_dice": 0.9166312576815646,
+    "val_dice": 0.8751152817763241,
+    "val_dice_per_class": {
+      "background": 0.9963055283060611,
+      "left_lung": 0.9522622645569976,
+      "right_lung": 0.9540728508484799,
+      "infection": 0.7190107299234951
+    },
+    "val_iou_per_class": {
+      "background": 0.9926382543729593,
+      "left_lung": 0.9088746471027541,
+      "right_lung": 0.9121790667948964,
+      "infection": 0.5612933275237766
+    }
+  },
+  {
+    "epoch": 39,
+    "train_loss": 0.10513729240359931,
+    "val_loss": 0.16217357620484846,
+    "train_dice": 0.917295692815454,
+    "val_dice": 0.8699787734390849,
+    "val_dice_per_class": {
+      "background": 0.9960700703073672,
+      "left_lung": 0.9496196331436991,
+      "right_lung": 0.9514248664249115,
+      "infection": 0.708891820748644
+    },
+    "val_iou_per_class": {
+      "background": 0.9921709083943019,
+      "left_lung": 0.904072146727028,
+      "right_lung": 0.9073502088315352,
+      "infection": 0.549056873886193
+    }
+  },
+  {
+    "epoch": 40,
+    "train_loss": 0.1053733829485959,
+    "val_loss": 0.1604971569591671,
+    "train_dice": 0.9171603351430742,
+    "val_dice": 0.8700871521657604,
+    "val_dice_per_class": {
+      "background": 0.9961599538707974,
+      "left_lung": 0.9492625232033379,
+      "right_lung": 0.952620160493399,
+      "infection": 0.7083787728005443
+    },
+    "val_iou_per_class": {
+      "background": 0.9923492868330771,
+      "left_lung": 0.903425017348114,
+      "right_lung": 0.9095269209517712,
+      "infection": 0.5484415693109034
+    }
+  },
+  {
+    "epoch": 41,
+    "train_loss": 0.10397598943833647,
+    "val_loss": 0.15684657001909905,
+    "train_dice": 0.9176176017993528,
+    "val_dice": 0.872995409562578,
+    "val_dice_per_class": {
+      "background": 0.9963110702650209,
+      "left_lung": 0.9519346116063521,
+      "right_lung": 0.953914705704212,
+      "infection": 0.71313691137717
+    },
+    "val_iou_per_class": {
+      "background": 0.9926492569048198,
+      "left_lung": 0.9082778824185446,
+      "right_lung": 0.9118899872752498,
+      "infection": 0.5541668866579675
+    }
+  },
+  {
+    "epoch": 42,
+    "train_loss": 0.10564309965262468,
+    "val_loss": 0.15438793530981793,
+    "train_dice": 0.9176149214812366,
+    "val_dice": 0.8760647789175935,
+    "val_dice_per_class": {
+      "background": 0.9963550720354787,
+      "left_lung": 0.9529178228625563,
+      "right_lung": 0.9546655120553497,
+      "infection": 0.7206110018348743
+    },
+    "val_iou_per_class": {
+      "background": 0.9927366185730374,
+      "left_lung": 0.9100697573400421,
+      "right_lung": 0.9132631928488507,
+      "infection": 0.5632462080480293
+    }
+  },
+  {
+    "epoch": 43,
+    "train_loss": 0.10312499292623038,
+    "val_loss": 0.1574373794509504,
+    "train_dice": 0.9182062200106613,
+    "val_dice": 0.8739935535924467,
+    "val_dice_per_class": {
+      "background": 0.9962260737939854,
+      "left_lung": 0.9523105105382528,
+      "right_lung": 0.9536475163631096,
+      "infection": 0.7160226338759778
+    },
+    "val_iou_per_class": {
+      "background": 0.9924805255297297,
+      "left_lung": 0.9089625505620987,
+      "right_lung": 0.9114017802571093,
+      "infection": 0.557659856604369
+    }
+  },
+  {
+    "epoch": 44,
+    "train_loss": 0.10558122936336474,
+    "val_loss": 0.15565888062679678,
+    "train_dice": 0.9172705171034533,
+    "val_dice": 0.8749600930246775,
+    "val_dice_per_class": {
+      "background": 0.9963427023244589,
+      "left_lung": 0.952432556285414,
+      "right_lung": 0.9545391049118576,
+      "infection": 0.7179086178767606
+    },
+    "val_iou_per_class": {
+      "background": 0.9927120588192575,
+      "left_lung": 0.9091849522434263,
+      "right_lung": 0.9130318593421716,
+      "infection": 0.5599512077585688
+    }
+  },
+  {
+    "epoch": 45,
+    "train_loss": 0.10420624953576889,
+    "val_loss": 0.15410320383769677,
+    "train_dice": 0.9171685323335946,
+    "val_dice": 0.874950231380638,
+    "val_dice_per_class": {
+      "background": 0.9963841627479887,
+      "left_lung": 0.951793195460525,
+      "right_lung": 0.9547135083556721,
+      "infection": 0.7183439903257167
+    },
+    "val_iou_per_class": {
+      "background": 0.9927943798457549,
+      "left_lung": 0.9080204319782974,
+      "right_lung": 0.9133510439361208,
+      "infection": 0.5604811157623134
+    }
+  }
+]

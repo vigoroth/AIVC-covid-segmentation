@@ -1,0 +1,20 @@
+# Data (downloaded from Zenodo, ~1.1 GB)
+data/
+*.nii
+*.nii.gz
+*.zip
+
+# Checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Misc
+*.pdf:Zone.Identifier
