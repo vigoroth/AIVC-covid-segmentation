@@ -4,6 +4,9 @@ Semantic segmentation of chest CT scans into **4 classes** — `background`, `le
 `right lung`, `infection` — comparing two architectures, with **Optuna** hyperparameter
 search and full experiment logging. MSc AIVC assignment (`Ergasia_2026.pdf`).
 
+> 📄 **Full academic report:** [`report/report.pdf`](report/report.pdf) (LaTeX source:
+> [`report/report.tex`](report/report.tex)) — method, models, dataset and results with all figures.
+
 ---
 
 ## 1. Problem
